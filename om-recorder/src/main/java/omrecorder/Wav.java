@@ -26,7 +26,7 @@ import java.io.RandomAccessFile;
  * @author Kailash Dabhi
  * @date 31-07-2016
  */
-final class Wav extends AbstractRecorder {
+public final class Wav extends AbstractRecorder {
   public Wav(PullTransport pullTransport, File file) {
     super(pullTransport, file);
   }
